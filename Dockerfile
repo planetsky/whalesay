@@ -1,4 +1,4 @@
-FROM quay.maru.octanner.io/base/oct-debian
+FROM quay.maru.octanner.io/developer/oct-ubuntu
 
 WORKDIR /cowsay
 
