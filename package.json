@@ -1,0 +1,24 @@
+{
+  "name": "whalesay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@scc-gitlab-1.dev.octanner.net:octanner/whalesay.git"
+  },
+  "keywords": [
+    "cowsay",
+    "whalesay"
+  ],
+  "author": "Ned D Hanks",
+  "license": "MIT",
+  "dependencies": {
+    "cowsay": "^1.4.0",
+    "random-fortune": "^0.2.0"
+  }
+}
