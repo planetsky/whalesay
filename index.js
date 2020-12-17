@@ -16,7 +16,6 @@ console.log(cowsay.say({
 var cow = "whale";
 
 http.createServer(function (req, res) {
-    //console.log(req.query)
     const query = url.parse(req.url,true).query;
     if ( query.cow ) {
         cow=query.cow
